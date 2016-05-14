@@ -160,7 +160,7 @@ img:nth-child(2n+1) {
   width: 100%;
   text-align: center;
   bottom: 0;
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.6);
   padding: 20px 0;
 }
 
