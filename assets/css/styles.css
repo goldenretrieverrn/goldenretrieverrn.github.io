@@ -1,13 +1,14 @@
 .portfolio-header {
   position: relative;
   background-image: url(../images/header-bg.jpg);
+  background-position: -360px;
 }
 
 .portfolio-header .mdl-layout__header-row {
   padding: 0;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .mdl-layout__title {
@@ -161,6 +162,10 @@ img.article-image {
 .portfolio-contact form {
   max-width: 550px;
   margin: auto;
+}
+
+.fa-2x:hover {
+  color: rgb(190, 152, 68);
 }
 
 footer {
