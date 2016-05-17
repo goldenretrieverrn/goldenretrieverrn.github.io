@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="mdl-grid portfolio-max-width portfolio-contact">
+  <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Contato</h2>
+    </div>
+    <div class="mdl-card__media">
+      <img class="article-image" src="assets/images/contact-image.jpg" border="0" alt="">
+    </div>
+    <div class="mdl-card__supporting-text">
+        <p>
+          Fale Conosco do Clube Ouro é um serviço para sanar dúvidas dos membros e visitantes em assuntos relativos a raça Golden Retriever e a respeito do Grupo. Ao acessar o serviço, solicitamos ao usuário que preencha os campos abaixo corretamente.
+        </p>
+        <p>
+          Após o envio o Clube Ouro tem um prazo de até cinco dias para enviar a resposta.
+        </p>
+      <form class="contato-form" action="http://formspree.io/clubeouro@goldenretrieverrn.com.br" method="post">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input style="border-color: #ccc;" class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" name="nome" id="contato-nome" required>
+          <label style="color: #ccc;" class="mdl-textfield__label" for="Nome">Nome...</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input style="border-color: #ccc;" class="mdl-textfield__input" type="text" name="email" id="contato-email" required>
+          <label style="color: #ccc;" class="mdl-textfield__label" for="Email">Email...</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <textarea style="border-color: #ccc;" class="mdl-textfield__input" type="text" rows="5" name="mensagem" id="contato-mensagem" required></textarea>
+          <label style="color: #ccc;" class="mdl-textfield__label" for="Mensagem">Escreva sea mensagem...</label>
+        </div>
+        <p>
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background: rgb(190, 152, 68)" type="submit">
+            Enviar
+          </button>
+        </p>
+        <div id="msgForm"></div>
+      </form>
+    </div>
+  </div>
+</div>
