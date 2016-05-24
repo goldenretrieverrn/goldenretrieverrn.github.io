@@ -1,3 +1,7 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-size: 10%;
+}
 .portfolio-header {
   position: relative;
   background-image: url(../images/header-bg.jpg);
@@ -95,6 +99,10 @@
   background: url(../images/proximo-encontro.jpg) center / cover;
 }
 
+.sextoencontro {
+  background: url(//c7.staticflickr.com/8/7430/26941850662_10e9113cf4_h.jpg) center / cover;
+}
+
 .portfolio-blog-card-strip-bg {
   background: url(../images/example-blog06.jpg) center / cover;
 }
@@ -162,10 +170,6 @@ img.article-image {
 .portfolio-contact form {
   max-width: 550px;
   margin: auto;
-}
-
-.fa-2x:hover {
-  color: rgb(190, 152, 68);
 }
 
 footer {
