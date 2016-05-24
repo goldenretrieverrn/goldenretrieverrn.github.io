@@ -1,6 +1,7 @@
 body {
   background-image: url(../images/background.jpg);
   background-size: 10%;
+  overflow-y: hidden;
 }
 .portfolio-header {
   position: relative;
